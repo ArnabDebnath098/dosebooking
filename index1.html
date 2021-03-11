@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dose Booking Portal</title>
+  </head>
+  <body>
+    <style>
+      .button {
+        background-color: #01bdd6;
+        border: none;
+        color: white;
+        padding: 12px 34px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 50px;
+      }
+      .blue {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+    </style>
+    <div
+      class="calendly-inline-widget"
+      data-url="https://calendly.com/dose-booking/demo?hide_gdpr_banner=1"
+      style="min-width: 100%; height: 100vh"
+    ></div>
+    <div class="blue">
+      <h3>Form Link: <a href="index2.html" class="button">Click Here</a></h3>
+    </div>
+    <script
+      type="text/javascript"
+      src="https://assets.calendly.com/assets/external/widget.js"
+      async
+    ></script>
+  </body>
+</html>
